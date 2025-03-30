@@ -1,7 +1,6 @@
 'use client';
 
 import Image from "next/image";
-import Btn from '@/components/MessyButton';
 import { BetterButton } from '@/components/BetterButton';
 
 export default function Home() {
