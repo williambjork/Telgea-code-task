@@ -47,8 +47,10 @@ Improvements made:
 
 #### Task 3: Written Response
 
-While I'm always careful not to step on anyone's toes, it's been made very clear that Telgea prioritizes speed and results. With that in mind, I would make minor adjustments (like margins and font sizes) according to the existing design system or styling found elsewhere in the app while implementing the feature.
+While I'm always respectul of my team members and the effort they put in, but I don't shy away from taking initiative and implementing changes when needed in order to make the workflow more efficient and to produce a great product.
 
-While working on the feature, I would contact the designer to inquire about the mobile views, as they represent a more substantial unit of work. I would also confirm whether I could proceed with making the minor adjustments proactively. I can build the features with responsiveness in mind and implement the specific mobile design details once the designer provides them.
+I would make minor adjustments (like margins and font sizes) according to the existing design system or styling found elsewhere in the app while implementing the feature. The mobile responsivness is a bigger issue and it would be more time efficient for the designer to work on that while I'm implementing the code.
 
-My intention is to work as closely with the designer as possible without letting minor details stand in the way of making progress. Clear communication while taking initiative when needed.
+I would syncronize with the designer to make sure were on the same page and get an time estimate for when the mobile views will be ready.
+
+My intention is to work as closely with the designer as possible without letting minor details stand in the way of progress. I'm commited to clear communication and taking initiative as needed.
