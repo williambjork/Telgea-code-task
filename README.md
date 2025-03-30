@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#### ***Task 1: Implement a UI Component***
 
-## Getting Started
+*Deployment link: [https://telgea-code-task-tzvt.vercel.app/company-account](https://telgea-code-task-tzvt.vercel.app/company-account)*
 
-First, run the development server:
+I chose the 'Whitelist domains' component. Although the 'Top-up for Users' component offered more complex user interactions (like error states and calendar components), the estimated 20-minute timeframe seemed insufficient to deliver work at the standard I believe you expect.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+While working on the task, I focused on keeping everything as modular as possible. I created a base 'Modal' component that accepts props to display both the 'Add domains' and 'Remove domains' components. This avoids code duplication and keeps the project more maintainable as it grows.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In addition to ensuring the adding and removal of domains worked correctly, I focused on making the modal as robust as possible:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Closing via outside click or Escape key.
+- Preventing background scroll when open.
+- Domain validation using regex with error messages.
+- Preventing duplicate domain entries.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Regarding the styling, I adhered as closely as possible to the Figma file, given the time constraint. Given more time, I would ensure the styling matches the Figma file exactly.
 
-## Learn More
+**Next Steps I would take to bring the functionality closer to a production release:**
 
-To learn more about Next.js, take a look at the following resources:
+- General style adjustments to match the Figma file exactly (including fonts, colors, button styling, sizing, margins, and icons).
+- Backend integration.
+- More polished hover states and animations.
+- Improved responsive states and mobile view enhancements.
+- Loading states and improved user feedback (e.g., 'Domain removed/added successfully' messages).
+- Increased component modularity
+- Enhanced error state handling.
+- Unit tests.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#### Task 2: Refactor and Document
 
-## Deploy on Vercel
+**The improved button component can be found here:** `src/components/BetterButton.tsx`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Improvements made:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Replaced inline styling with Tailwind CSS.
+- Renamed `click` prop to `onClick` for consistency with standard naming conventions.
+- Added a default value for the text prop.
+- Added a `className` prop for easier styling customization.
+- Ensured consistent code spacing and formatting.
+- Implemented a hover effect.
+- Set the cursor to 'pointer' on hover.
+- Added a TypeScript interface for props validation.
+
+---
+
+#### Task 3: Written Response
+
+While I'm always careful not to step on anyone's toes, it's been made very clear that Telgea prioritizes speed and results. With that in mind, I would make minor adjustments (like margins and font sizes) according to the existing design system or styling found elsewhere in the app while implementing the feature.
+
+While working on the feature, I would contact the designer to inquire about the mobile views, as they represent a more substantial unit of work. I would also confirm whether I could proceed with making the minor adjustments proactively. I can build the features with responsiveness in mind and implement the specific mobile design details once the designer provides them.
+
+My intention is to work as closely with the designer as possible without letting minor details stand in the way of making progress. Clear communication while taking initiative when needed.
