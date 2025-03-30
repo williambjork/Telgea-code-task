@@ -1,4 +1,8 @@
+'use client';
+
 import Image from "next/image";
+import Btn from '@/components/MessyButton';
+import { BetterButton } from '@/components/BetterButton';
 
 export default function Home() {
   return (
@@ -50,6 +54,15 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+
+        <div className="mb-8 flex flex-col items-center gap-4">
+   
+            <div className="flex flex-col items-center">
+              <p className="mb-2">Improved Button:</p>
+              <BetterButton onClick={() => console.log('Better Button clicked!')} text="Better Button" />
+            </div>
+          </div>
+
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
