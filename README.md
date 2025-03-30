@@ -13,7 +13,6 @@ In addition to ensuring the adding and removal of domains worked correctly, I fo
 - Domain validation using regex with error messages.
 - Preventing duplicate domain entries.
 
-Regarding the styling, I adhered as closely as possible to the Figma file, given the time constraint. Given more time, I would ensure the styling matches the Figma file exactly.
 
 **Next Steps I would take to bring the functionality closer to a production release:**
 
