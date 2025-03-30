@@ -30,7 +30,9 @@ Regarding the styling, I adhered as closely as possible to the Figma file, given
 
 #### Task 2: Refactor and Document
 
-**The improved button component can be found here:** `src/components/BetterButton.tsx`
+The improved button component can be found here: **https://github.com/williambjork/Telgea-code-task/blob/main/src/components/BetterButton.tsx**
+
+Path: `src/components/BetterButton.tsx` 
 
 Improvements made:
 
